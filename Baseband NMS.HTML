@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="C:\Bitnami\wampstack-7.1.25-0\apache2\htdocs\Project_SSGTV\style.css">
+		<title>신세계TV쇼핑 주조종실</title>
+</head>
+<body>
+
+	<input type="button" value="night" onclick="
+	var target= document.querySelector('body')
+	if(this.value === 'night'){
+	target.style.backgroundColor = 'black';
+	target.style.color = 'white';
+	this.value = 'day';
+			var alist = document.querySelectorAll('a');
+			var i = 0
+			while(i < alist.length){
+			console.log(alist[i])
+			alist[i].style.color = 'powderblue';
+			i = i+1;
+      }
+} else {
+	target.style.backgroundColor = 'white';
+	target.style.color = 'black';
+	this.value = 'night';
+			var alist = document.querySelectorAll('a');
+			var i = 0
+			while(i < alist.length){
+			console.log(alist[i])
+			alist[i].style.color = 'gray';
+			i = i+1;
+			}
+}">
+  <header>
+		<img src="C:\Bitnami\wampstack-7.1.25-0\apache2\htdocs\img\LOGO1.png" />
+   <h1>신세계TV쇼핑 주조종실</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <ol><h3><a href="C:\Bitnami\wampstack-7.1.25-0\apache2\htdocs\Project_SSGTV\Baseband NMS.html">Baseband NMS</a></h3></ol>
+      <ol><h3><a href="C:\Bitnami\wampstack-7.1.25-0\apache2\htdocs\Project_SSGTV\MediaHub.html">Media Hub</a></h3></ol>
+      <ol><h3><a href="C:\Bitnami\wampstack-7.1.25-0\apache2\htdocs\Project_SSGTV\Shift Work.html">Shift Work</a></h3></ol>
+    </ul>
+  </nav>
+  <article>
+		<span id="article1">
+			<span>베이스밴드 전자용어사전
+반송(혹은 부반송)주파수를 송신되는 유선 또는 무선 신호에 싣기 위한 (변조) 신호의 주파수 대역. 베이스밴드 신호는 상대적으로 0에 가깝든가 또는 직류 성분(주파수：0)을 포함하고 있는 저주파 대역으로서 보통 유선 또는 무선 신호에서 구별된다. 부반송파가 변조되기 전의 팩시밀리 신호에서는 베이스밴드는 직류를 포함하고 있다.
+외국어 표기 baseband(영어)
+[네이버 지식백과] 베이스밴드 [baseband] (전자용어사전, 1995. 3. 1., 성안당)</span>
+  </article>
+</body>
+</html>

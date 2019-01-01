@@ -1,0 +1,35 @@
+img{
+  float:right; padding-top: 15px;
+}
+header{
+   font-size:25px; border-bottom:2px solid gray; text-align: center;
+  padding-bottom: 20px; padding-left: 50px; padding-top: 10px; }
+body{
+
+}
+
+nav{
+  font-size: 20px; border-right: 2px solid gray;
+  width: 300px; height: 300px; padding-top: 50px;
+  float: left;
+}
+a {
+
+}
+#article1 {
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  padding-left: 20px; padding-top: 1px; font-size: 30px;
+}
+  @media(max-width:800px){
+    #article1{
+      float: none;
+    }
+    nav{
+      border-right: none;
+    }
+    header{
+      border-bottom: none; display: grid;
+    }
+
+  }
